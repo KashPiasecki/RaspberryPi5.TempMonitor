@@ -1,0 +1,7 @@
+#!/bin/bash
+# Using Script: pi_temp.sh
+# Purpose: Display the ARM CPU and GPU temperatures of Raspberry Pi 5 
+# Author: Lukasz Piasecki under GPL v3
+# -------------------------------------------------------
+
+watch -n 5 -tc /usr/bin/pi_temp.sh
